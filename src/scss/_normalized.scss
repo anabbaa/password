@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom,
+    lightgray, #333 50%, #eee 75%, #333 75%)
+}
+button{
+    height: 4vh;
+    width: 20vw;
+    font-size: 1.5rem;
+}
