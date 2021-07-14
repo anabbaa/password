@@ -1,0 +1,6 @@
+@mixin responsive ($breakpoint) {
+    
+    @if $breakpoint == tab {
+        @media (max-width: 700px){@content}
+    };
+}
